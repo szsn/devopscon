@@ -16,7 +16,6 @@ In order to make it work, please do the following:
  > ```xml
  > <tomcat-users>
  >   <role rolename="manager-gui" />
- >   <role rolename="admin-gui" />
  >   <role rolename="manager-script" />
  >   <user username="admin" password="admin" roles="manager-gui,admin-gui,manager-script" />
  > </tomcat-users>
